@@ -23,5 +23,10 @@ class Funcionario < Pessoas
         return "#{@carga_horaria}"
     end
 
+    public def get_identificacao #sobreescrita do método de pessoa, foi realizada para corrigir o acesso ao objeto
+
+        return "#{identificacao}"
+    end
+
 
 end
